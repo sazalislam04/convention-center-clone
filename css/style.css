@@ -65,4 +65,10 @@ a {
   .alternate {
     flex-direction: column-reverse;
   }
+  .carousel-caption h1 {
+    font-size: 4.5rem;
+  }
+  .carousel-caption p {
+    font-size: 2rem;
+  }
 }
