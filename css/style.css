@@ -1,0 +1,68 @@
+.section-padding {
+  padding: 100px 0;
+}
+.navbar a {
+  font-size: 15px;
+  color: #333;
+  font-weight: 400;
+}
+.w-100 {
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+}
+.ccarousel-item {
+  height: 100vh;
+  min-height: 300px;
+}
+.carousel-caption p {
+  width: 60%;
+  margin: auto;
+  font-size: 15px;
+}
+.carousel-inner::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.img-group {
+  width: 15%;
+}
+.img-group img {
+  width: 100%;
+}
+.card li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .navbar-nav {
+    text-align: center;
+  }
+  .alternate {
+    flex-direction: column-reverse;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar-nav {
+    text-align: center;
+  }
+  .carousel-caption p {
+    width: 100%;
+  }
+  .footer-wrap {
+    flex-direction: column;
+  }
+  .alternate {
+    flex-direction: column-reverse;
+  }
+}
